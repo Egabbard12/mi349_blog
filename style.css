@@ -1,6 +1,11 @@
 html {
+    max-width: 500px;
     background-color: rgba(4, 6, 9, 0.867);
     padding:20px;
+    margin: auto;
+}
+header {
+    border-top: 5px solid whitesmoke !important;
 }
 body {
 
