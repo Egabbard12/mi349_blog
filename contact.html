@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI349 Newsletter</title>
 </head>
+
+<header>
+    <h1>Eric's Blog</h1>
+</header>
 <body>
     <nav>
         <ul>
@@ -16,24 +20,27 @@
         </ul>
     </nav>
     <form>
-        <label>Input Name:
+        <label class="contact-info">Input Name:
             <input type="text">
         </label>
-        <label>Email:
+        
+        <label class="contact-info">Email:
             <input type="email">
         </label>
-        <label for="Reason-for-contact">
+
+        <label class="contact-info" for="Reason-for-contact">
             Choose a reason for contact:
         </label>
-        <select name="Reason-for-contact" id="Reason-for-contact">
+        
+        <select class="contact-info" id="Reason-for-contact" name="Reason-for-contact">
             <option value="Saying hi">Saying hi</option>
             <option value="Looking for a contractor">Looking for a contractor</option>
             <option value="Interested in an interview">Interested in an interview</option>
         </select>
 
-        <label for="open-comment">Comments</label>
+        <label class="contact-info" for="open-comment">Comments</label>
         <textarea id="open-comment" name="open-comment"></textarea>
-        <button>Subsribe</button>
+        <button>Subscribe</button>
     </form>
 
 </body>
