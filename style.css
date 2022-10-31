@@ -8,6 +8,7 @@ header {
     border-top: 1px solid red !important;
     padding-bottom: 5px;
     text-align:center;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(51, 54, 59);
 }
 nav {
@@ -40,6 +41,14 @@ table {
 .contact-info::after {
     content: "\a";
     white-space: pre;
+}
+.section-heading {
+    font-size: 1.5em;
+    font-family: cursive;
+}
+#posts {
+    font-size: 2em;
+    margin:auto;
 }
 
 .blog-post {
