@@ -9,11 +9,11 @@ header {
     padding-bottom: 5px;
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(51, 54, 59);
+    background-color: rgb(28, 30, 33);
 }
 nav {
-    text-align: start;
-    color: red;
+    text-align: start !important;
+    color: red !important;
 }
 body {
     font-family:Arial, Helvetica, sans-serif;
