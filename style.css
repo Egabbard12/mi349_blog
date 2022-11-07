@@ -10,10 +10,24 @@ header {
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(28, 30, 33);
+    position: sticky;
+    top: 0;
 }
 nav {
-    text-align: start !important;
+
     color: red !important;
+    align-self: center;
+    
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    text-align: center !important;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    
 }
 body {
     font-family:Arial, Helvetica, sans-serif;
@@ -38,20 +52,31 @@ table {
     padding-top: 20px;
     color:rgb(110, 191, 191)
 }
+
 .contact-info::after {
     content: "\a";
     white-space: pre;
 }
-.section-heading {
-    font-size: 1.5em;
-    font-family: cursive;
-}
+
 #posts {
     font-size: 2em;
     margin:auto;
 }
+.post-img{
+    float:left !important;
+    width: 200px !important;
+    margin-left: auto;
+    min-width: 200px !important;
+}
 
 .blog-post {
     border-top: 1px dotted red !important;
+    display: flex;
+    flex-direction: row;
+    flex: 300px;
+}
+.section-heading {
+    font-size: 1.5em;
+    font-family: cursive;
 };
 
